@@ -3,7 +3,7 @@ FROM python:3.12-alpine
 RUN mkdir /app
 WORKDIR /app
 RUN pip install --upgrade pip
-RUN pip install confluent-kafka
+RUN pip install confluent-kafka==2.7.0
 RUN pip install flask
 
 
