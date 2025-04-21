@@ -8,7 +8,6 @@ import random
 topic_name='captured_data'
 
 
-
 conf = {'bootstrap.servers': 'pkc-abcd85.us-west-2.aws.confluent.cloud:9092',
         'security.protocol': 'SASL_SSL',
         'sasl.mechanism': 'PLAIN',
